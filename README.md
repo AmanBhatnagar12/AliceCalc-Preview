@@ -1,4 +1,4 @@
-# Alice-Calculator
+# Alice-Calc
 
 A simple calculator made by [AmanBhatnagar12](https://github.com/AmanBhatnagar12) and [Pranav Krishna] . 
 
