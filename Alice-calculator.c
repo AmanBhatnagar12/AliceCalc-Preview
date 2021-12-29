@@ -5,7 +5,7 @@ Addition ,Sub*/
 #include <stdio.h>
 int main() {
 // To input the numbers and perform the operations
-int op;
+char op;
 // Numbers
 int a,b;
 // Result to display
@@ -25,15 +25,21 @@ scanf("%d",&op);
 
 switch(op){
 //Addition
-case 1:
+case 'A:
+  
 res=a+b;
 printf("Result is %f",res);
 break;
 
-case 2:
+case 'S':
+  case 's':
 res=a-b;
 printf("Result is %f",res);
 break;
+    
+    
+    
+    
 
 default:
 printf("None of the operations matched. Have a nice day");
